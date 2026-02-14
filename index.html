@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCoder | Junior Frontend Developer</title>
+    <meta name="description" content="Portfolio of DCoder, a Junior Frontend Developer specializing in HTML, CSS, and JavaScript.">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Tajawal:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    
+    <header>
+        <nav class="container">
+            <div class="logo">DCoder<span class="dot">.</span></div>
+            <div class="nav-controls">
+                <button id="lang-toggle" class="btn-icon" aria-label="Switch Language">
+                    <span class="lang-text">AR</span>
+                </button>
+                <button id="theme-toggle" class="btn-icon" aria-label="Toggle Theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-content">
+                <h1 class="fade-in" data-en="Hi I'm DCoder" data-ar="مرحباً، أنا DCoder">Hi I'm DCoder</h1>
+                <h2 class="slide-up" data-en="Junior Frontend Developer" data-ar="مطور واجهات أمامية مبتدئ">Junior Frontend Developer</h2>
+                <div class="cta-buttons slide-up delay-1">
+                    <a href="#projects" class="btn btn-primary" data-en="View Projects" data-ar="عرض المشاريع">View Projects</a>
+                    <a href="https://drive.google.com/file/d/1wr9IAINPlldBBU5GFu8-IvCieyvE27Hn/view?usp=drivesdk" target="_blank" class="btn btn-outline" data-en="Download CV (PDF)" data-ar="تحميل السيرة الذاتية">Download CV (PDF)</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title fade-in" data-en="About Me" data-ar="عني">About Me</h2>
+                <p class="about-text fade-in" data-en="Junior Frontend Developer with hands-on experience building responsive web interfaces using HTML, CSS, and JavaScript. Passionate about learning, building real-world projects, and improving user experience. Looking for an internship or entry-level opportunity to grow my skills." data-ar="مطور واجهات أمامية مبتدئ ذو خبرة عملية في بناء واجهات ويب متجاوبة باستخدام HTML و CSS و JavaScript. شغوف بالتعلم وبناء مشاريع واقعية وتحسين تجربة المستخدم. أبحث عن فرصة تدريب أو وظيفة مبتدأ لتطوير مهاراتي.">
+                    Junior Frontend Developer with hands-on experience building responsive web interfaces using HTML, CSS, and JavaScript. Passionate about learning, building real-world projects, and improving user experience. Looking for an internship or entry-level opportunity to grow my skills.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title fade-in" data-en="Technical Skills" data-ar="المهارات التقنية">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card fade-in">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-card fade-in delay-1">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-card fade-in delay-2">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-card fade-in delay-3">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git & Github</span>
+                    </div>
+                    <div class="skill-card fade-in delay-4">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <span data-en="Basic UI/UX" data-ar="أساسيات UI/UX">Basic UI/UX</span>
+                    </div>
+                    <div class="skill-card fade-in delay-5">
+                        <i class="fas fa-brain"></i>
+                        <span data-en="Problem Solving" data-ar="حل المشكلات">Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title fade-in" data-en="Projects" data-ar="المشاريع">Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card slide-up">
+                        <div class="project-icon"><i class="fas fa-calculator"></i></div>
+                        <h3 data-en="Calculator" data-ar="الآلة الحاسبة">Calculator</h3>
+                        <div class="project-links">
+                            <a href="https://coodexii.github.io/calculator-project/" target="_blank" class="btn-small">Live Demo</a>
+                            <a href="https://github.com/coodexii/calculator-project" target="_blank" class="btn-small"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                     <!-- Project 2 -->
+                     <div class="project-card slide-up delay-1">
+                        <div class="project-icon"><i class="fas fa-cloud-sun"></i></div>
+                        <h3 data-en="Weather Dashboard" data-ar="لوحة الطقس">Weather Dashboard</h3>
+                        <div class="project-links">
+                            <a href="https://coodexii.github.io/weatherDashboard-project/" target="_blank" class="btn-small">Live Demo</a>
+                            <a href="https://github.com/coodexii/weatherDashboard-project" target="_blank" class="btn-small"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                     <!-- Project 3 -->
+                     <div class="project-card slide-up delay-2">
+                        <div class="project-icon"><i class="fas fa-list-check"></i></div>
+                        <h3 data-en="To-Do List" data-ar="قائمة المهام">To-Do List</h3>
+                        <div class="project-links">
+                            <a href="https://coodexii.github.io/To-DO-List/" target="_blank" class="btn-small">Live Demo</a>
+                            <a href="https://github.com/coodexii/To-DO-List" target="_blank" class="btn-small"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Education Section -->
+         <section id="education" class="education-section">
+            <div class="container">
+                <h2 class="section-title fade-in" data-en="Education" data-ar="التعليم">Education</h2>
+                <div class="education-card fade-in">
+                    <h3 data-en="Programming and Computer Science" data-ar="برمجة وعلوم حاسب">Programming and Computer Science</h3>
+                    <p class="status" data-en="Status: Graduated" data-ar="الحالة: خريج">Status: Graduated</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title fade-in" data-en="Contact Me" data-ar="تواصل معي">Contact Me</h2>
+                
+                <div class="social-links fade-in">
+                    <a href="https://github.com/coodexii" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:your.email@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+
+                <form class="contact-form slide-up" action="mailto:your.email@example.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Name" required data-placeholder-en="Name" data-placeholder-ar="الاسم">
+                    <input type="email" name="email" placeholder="Email" required data-placeholder-en="Email" data-placeholder-ar="البريد الإلكتروني">
+                    <textarea name="message" rows="5" placeholder="Message" required data-placeholder-en="Message" data-placeholder-ar="الرسالة"></textarea>
+                    <button type="submit" class="btn btn-primary" data-en="Send Message" data-ar="إرسال الرسالة">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-en="© 2026 DCoder. All rights reserved." data-ar="© 2026 DCoder. جميع الحقوق محفوظة.">© 2026 DCoder. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
